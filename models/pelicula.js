@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Directormodel = require("../models/Director");
+const Directormodel = require("../models/director");
 const director = Directormodel.director;
 
 let prataformaSchema = new mongoose.Schema({
